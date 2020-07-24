@@ -7,5 +7,7 @@ docker run  -it --restart always --privileged --device /dev/ttyUSB0 ruifigueired
 env vars
 
 ENV USER ruifigueiredo.zucky
+
 ENV PASS 0
+
 ENV URL stratum+tcp://stratum.slushpool.com:3333
